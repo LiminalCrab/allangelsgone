@@ -36,16 +36,28 @@ footer {
 
 
 .top-nav{
+    display: inline-block;
+    text-align: center;
     padding-left: 5%;
     max-width: 100%;
     grid-area: nav;
 
 }
 
-.top-nav li{
-    display: inline;
+.top-nav ul {
+    padding-right: 0.5em;
+    display: inline-block;
 }
 
+.top-nav li{
+    font-size: 1.5em;
+    padding-left: 0.5em;
+    display: inline-block;
+}
+
+.tagline {
+    font-size: 0.8em;
+}
 
 .ind-content{
     max-width: 100%;

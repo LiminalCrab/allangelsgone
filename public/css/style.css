@@ -19,6 +19,25 @@ a {
     color: brown;
 }
 
+.collapse {
+    color: brown;
+    cursor: pointer;
+    padding: 0.5em;
+    width: 30%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.0em;
+}
+
+.coll-content {
+    padding: 0 1%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgb(255, 255, 255);
+}
+
 .wrapper {
     max-width: 100%;
     display: grid;
@@ -62,10 +81,22 @@ footer {
 .ind-content{
     max-width: 100%;
     background-color: white;
-    padding: 0 2%;
+    padding: 0 1%;
     grid-area: con;
 }
+/* Index specifc */
 
 .inner-articles {
     padding: 5%;
 }
+
+.inner-articles h1{
+    padding-top: 2%;
+}
+
+/* Archive specific */
+
+
+
+/* Wiki specific */
+/* Projects specific */

@@ -3,7 +3,7 @@ layout: index.njk
 title: Home
 ---
 
-# News
+## News
 ### Bootleg Archiving Project
 We're actively working on getting several new recording to the archive.org, to assist please contact.
 

@@ -2,5 +2,54 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #e6e4d8;
 }
 
+ul {
+    list-style: none;
+    width: 40%;
+}
+
+a, span, p, h1, h2, h3 {
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+.wrapper {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "nav nav nav nav"
+    "con con con con"
+    "ftr ftr ftr ftr";
+}
+
+footer {
+    width: 100%;
+    grid-area: ftr;
+}
+
+
+.top-nav{
+    padding-left: 5%;
+    max-width: 100%;
+    grid-area: nav;
+
+}
+
+.top-nav li{
+    display: inline;
+}
+
+
+.ind-content{
+    max-width: 100%;
+    background-color: white;
+    padding: 0 2% 13%;
+    grid-area: con;
+}

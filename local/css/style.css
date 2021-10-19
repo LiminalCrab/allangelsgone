@@ -23,7 +23,7 @@ a {
     color: brown;
     cursor: pointer;
     padding: 0.5em;
-    width: 30%;
+    width: 100%;
     border: none;
     text-align: left;
     outline: none;
@@ -36,6 +36,7 @@ a {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: rgb(255, 255, 255);
+    white-space: nowrap;
 }
 
 .wrapper {

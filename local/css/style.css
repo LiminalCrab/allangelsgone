@@ -1,5 +1,7 @@
 body {
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     background-color: #e6e4d8;
@@ -40,6 +42,7 @@ a {
 }
 
 .wrapper {
+    min-height: 100vh;
     max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -52,6 +55,7 @@ a {
 footer {
     width: 100%;
     grid-area: ftr;
+    margin: auto;
 }
 
 
@@ -89,6 +93,7 @@ footer {
 
 .inner-articles {
     padding: 5%;
+    min-height: 30vh;
 }
 
 .inner-articles h1{

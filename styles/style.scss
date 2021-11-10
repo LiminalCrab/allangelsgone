@@ -134,14 +134,25 @@ $scan-opacity: .75;
   margin: 0;
 }
 
-.txt-prim{
-  font-size: 4rem;
-}
-.smoke {
-  color: whitesmoke;
+main {
+  background: white;
+  height: 200px;
+  width: 60%;
+  margin: 300px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
 }
 
+main p {
+  width: 50%;
+}
+
+
 .container{
+  display: flex;
   height: 100vh;
   width: 100vw;
   background-image: url("https://cdn.sudogami.com/33089887226_18fd65b49a_o.jpg");

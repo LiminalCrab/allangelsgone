@@ -127,7 +127,7 @@ $scan-opacity: .75;
     // bottom: 0%; // to have a continuous scanline move, use this line (here in 0% step) instead of transform and write, in &:before, { position: absolute; bottom: 100%; }
   }
 }
-
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=IBM+Plex+Mono&display=swap');
 * {
   box-sizing: border-box;
   padding: 0;
@@ -135,21 +135,12 @@ $scan-opacity: .75;
 }
 
 main {
-  background: white;
-  height: 200px;
-  width: 60%;
-  margin: 300px auto;
-  padding: 20px;
+  min-height: 100vh; /* height of the browser viewport */
+  min-width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: auto;
 }
-
-main p {
-  width: 50%;
-}
-
 
 .container{
   display: flex;
@@ -157,4 +148,19 @@ main p {
   width: 100vw;
   background-image: url("https://cdn.sudogami.com/33089887226_18fd65b49a_o.jpg");
   background-size: cover;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  width: 50%;
+  background-color: whitesmoke;
+}
+
+.box p{
+  padding: 20px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
+  color: black;
 }

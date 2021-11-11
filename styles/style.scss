@@ -135,11 +135,20 @@ $scan-opacity: .75;
 }
 
 main {
+  font-family: 'IBM Plex Mono', monospace;
   min-height: 100vh; /* height of the browser viewport */
   min-width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.ul {
+  list-style: none;
+}
+
+.li {
+  display: inline;
 }
 
 .container{
@@ -153,14 +162,13 @@ main {
 .box {
   display: flex;
   justify-content: center;
-  height: 250px;
+  height: 200px;
   width: 50%;
   background-color: whitesmoke;
 }
 
 .box p{
   padding: 20px;
-  font-family: 'IBM Plex Mono', monospace;
   font-size: 2rem;
   color: black;
 }
